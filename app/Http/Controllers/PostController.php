@@ -23,7 +23,10 @@ class PostController extends Controller
     {
         return view('posts.create');
     }
-
+     //Autor: Marco Figueroa
+     //Función: store()
+     //¿Qué hace?: Esta función permite crear una publicación guardando título y contenido.
+     
     public function store(Request $request)
     {
         $request->validate([
